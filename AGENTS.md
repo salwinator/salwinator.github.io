@@ -19,7 +19,7 @@ Personal blog built with Hugo (hugo-bearblog theme). The Hugo `content/` directo
 
 - **Hugo version:** v0.160.1 (extended+withdeploy), installed via Homebrew
 - **Theme:** `hugo-bearblog`
-- **`baseURL`:** `https://marvel13.github.io/`
+- **`baseURL`:** `https://salwinator.github.io/`
 - **`contentDir`:** `content` (relative to project root)
 - **`timeZone`:** `Asia/Kolkata` (IST) — prevents today-dated posts from being treated as future
 - **`ignoreFiles`:** `.obsidian`, `.trash`, `Templates`
@@ -27,11 +27,11 @@ Personal blog built with Hugo (hugo-bearblog theme). The Hugo `content/` directo
 
 ## Deployment
 
-- **GitHub repo:** `https://github.com/marvel13/marvel13.github.io`
-- **Live site:** `https://marvel13.github.io/`
+- **GitHub repo:** `https://github.com/salwinator/salwinator.github.io`
+- **Live site:** `https://salwinator.github.io/`
 - **Deploy method:** GitHub Actions — auto-deploys on every push to `master`
 - **Pages source:** GitHub Actions (not legacy branch mode)
-- Blog post URLs: `https://marvel13.github.io/<slug>/`
+- Blog post URLs: `https://salwinator.github.io/<slug>/`
 
 ## Publish Workflow
 
