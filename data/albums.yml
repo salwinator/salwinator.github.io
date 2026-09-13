@@ -1,0 +1,302 @@
+# Favourite albums — pulled from your Spotify saved library by scripts/pull-spotify-albums.py.
+# Add/rewrite the 'note' fields by hand; they are what show when you hover a cover.
+- title: The Never Story
+  artist: JID
+  year: '2017'
+  image: /images/albums/the-never-story-jid.jpg
+  note: ''
+- title: The Forever Story (Extended Version)
+  artist: JID
+  year: '2022'
+  image: /images/albums/the-forever-story-extended-version-jid.jpg
+  note: ''
+- title: Nu Delhi
+  artist: Bloodywood
+  year: '2025'
+  image: /images/albums/nu-delhi-bloodywood.jpg
+  note: ''
+- title: Introduction To Mayhem
+  artist: Primer 55
+  year: '2000'
+  image: /images/albums/introduction-to-mayhem-primer-55.jpg
+  note: ''
+- title: Significant Other
+  artist: Limp Bizkit
+  year: '1999'
+  image: /images/albums/significant-other-limp-bizkit.jpg
+  note: ''
+- title: Dawn FM
+  artist: The Weeknd
+  year: '2022'
+  image: /images/albums/dawn-fm-the-weeknd.jpg
+  note: ''
+- title: Songs of Her's
+  artist: Her's
+  year: '2017'
+  image: /images/albums/songs-of-her-s-her-s.jpg
+  note: ''
+- title: Straight From The Heart
+  artist: Patrice Rushen
+  year: '2017'
+  image: /images/albums/straight-from-the-heart-patrice-rushen.jpg
+  note: ''
+- title: COLOR OUTSIDE THE LINES
+  artist: CORTIS
+  year: '2025'
+  image: /images/albums/color-outside-the-lines-cortis.jpg
+  note: ''
+- title: Alfredo 2
+  artist: Freddie Gibbs, The Alchemist
+  year: '2025'
+  image: /images/albums/alfredo-2-freddie-gibbs.jpg
+  note: ''
+- title: Head Hunters
+  artist: Herbie Hancock
+  year: '1973'
+  image: /images/albums/head-hunters-herbie-hancock.jpg
+  note: ''
+- title: The Miseducation of Lauryn Hill
+  artist: Ms. Lauryn Hill
+  year: '1998'
+  image: /images/albums/the-miseducation-of-lauryn-hill-ms-lauryn-hill.jpg
+  note: ''
+- title: Stankonia (Deluxe Version)
+  artist: Outkast
+  year: '2020'
+  image: /images/albums/stankonia-deluxe-version-outkast.jpg
+  note: ''
+- title: …For The Whole World To See
+  artist: Death
+  year: '2009'
+  image: /images/albums/for-the-whole-world-to-see-death.jpg
+  note: ''
+- title: CREAM
+  artist: Kassa Overall
+  year: '2025'
+  image: /images/albums/cream-kassa-overall.jpg
+  note: ''
+- title: open this wall
+  artist: berlioz
+  year: '2024'
+  image: /images/albums/open-this-wall-berlioz.jpg
+  note: ''
+- title: Maxwell's Urban Hang Suite
+  artist: Maxwell
+  year: '1996'
+  image: /images/albums/maxwell-s-urban-hang-suite-maxwell.jpg
+  note: ''
+- title: Off the Wall
+  artist: Michael Jackson
+  year: '1979'
+  image: /images/albums/off-the-wall-michael-jackson.jpg
+  note: ''
+- title: Sacrament (15th Anniversary Edition)
+  artist: Lamb of God
+  year: '2006'
+  image: /images/albums/sacrament-15th-anniversary-edition-lamb-of-god.jpg
+  note: ''
+- title: Voodoo
+  artist: D'Angelo
+  year: '2000'
+  image: /images/albums/voodoo-d-angelo.jpg
+  note: ''
+- title: LOVE IS THE LAW
+  artist: Love Spells
+  year: '2026'
+  image: /images/albums/love-is-the-law-love-spells.jpg
+  note: ''
+- title: Naadan Trendsetter
+  artist: Saint Moose
+  year: '2023'
+  image: /images/albums/naadan-trendsetter-saint-moose.jpg
+  note: ''
+- title: Hot Koki
+  artist: Tala André Marie
+  year: '1975'
+  image: /images/albums/hot-koki-tala-andr-marie.jpg
+  note: ''
+- title: Dobareh
+  artist: Motherjane
+  year: '2026'
+  image: /images/albums/dobareh-motherjane.jpg
+  note: ''
+- title: Avial
+  artist: Avial
+  year: '2008'
+  image: /images/albums/avial-avial.jpg
+  note: ''
+- title: GREENGREEN
+  artist: CORTIS
+  year: '2026'
+  image: /images/albums/greengreen-cortis.jpg
+  note: ''
+- title: Kehlani
+  artist: Kehlani
+  year: '2026'
+  image: /images/albums/kehlani-kehlani.jpg
+  note: ''
+- title: PSP - RIDGE RACER (Original Soundtrack)
+  artist: RIDGE RACER Series, Bandai Namco Game Music
+  year: '2024'
+  image: /images/albums/psp-ridge-racer-original-soundtrack-ridge-racer-series.jpg
+  note: ''
+- title: Without Warning
+  artist: 21 Savage, Offset, Metro Boomin
+  year: '2017'
+  image: /images/albums/without-warning-21-savage.jpg
+  note: ''
+- title: Madvillainy
+  artist: Madvillain, Madlib, MF DOOM
+  year: '2004'
+  image: /images/albums/madvillainy-madvillain.jpg
+  note: ''
+- title: Funkadelic (2025 Remastered)
+  artist: Funkadelic
+  year: '2025'
+  image: /images/albums/funkadelic-2025-remastered-funkadelic.jpg
+  note: ''
+- title: Taare Zameen Par
+  artist: Shankar-Ehsaan-Loy, Shailendra Barve
+  year: '2007'
+  image: /images/albums/taare-zameen-par-shankar-ehsaan-loy.jpg
+  note: ''
+- title: Wake Up Sid (Original Motion Picture Soundtrack) [Deluxe Edition]
+  artist: Shankar-Ehsaan-Loy, Amit Trivedi
+  year: '2009'
+  image: /images/albums/wake-up-sid-original-motion-picture-soundtrack-deluxe-editio.jpg
+  note: ''
+- title: LEGEND
+  artist: JANNABI
+  year: '2019'
+  image: /images/albums/legend-jannabi.jpg
+  note: ''
+- title: Random Access Memories (10th Anniversary Edition)
+  artist: Daft Punk
+  year: '2023'
+  image: /images/albums/random-access-memories-10th-anniversary-edition-daft-punk.jpg
+  note: ''
+- title: 'amnesia: side A'
+  artist: sufr
+  year: '2025'
+  image: /images/albums/amnesia-side-a-sufr.jpg
+  note: ''
+- title: Restless | Relentless
+  artist: Sutej Singh
+  year: '2025'
+  image: /images/albums/restless-relentless-sutej-singh.jpg
+  note: ''
+- title: An Evening With Silk Sonic
+  artist: Bruno Mars, Anderson .Paak, Silk Sonic
+  year: '2021'
+  image: /images/albums/an-evening-with-silk-sonic-bruno-mars.jpg
+  note: ''
+- title: Delhi Belly (Original Motion Picture Soundtrack)
+  artist: Ram Sampath
+  year: '2011'
+  image: /images/albums/delhi-belly-original-motion-picture-soundtrack-ram-sampath.jpg
+  note: ''
+- title: good kid, m.A.A.d city (Deluxe)
+  artist: Kendrick Lamar
+  year: '2012'
+  image: /images/albums/good-kid-m-a-a-d-city-deluxe-kendrick-lamar.jpg
+  note: ''
+- title: 'The Matrix Reloaded: The Album'
+  artist: Various Artists
+  year: '2009'
+  image: /images/albums/the-matrix-reloaded-the-album-various-artists.jpg
+  note: ''
+- title: NEVER ENOUGH
+  artist: Daniel Caesar
+  year: '2023'
+  image: /images/albums/never-enough-daniel-caesar.jpg
+  note: ''
+- title: Alligator Bites Never Heal
+  artist: Doechii
+  year: '2024'
+  image: /images/albums/alligator-bites-never-heal-doechii.jpg
+  note: ''
+- title: Audioslave
+  artist: Audioslave
+  year: '2002'
+  image: /images/albums/audioslave-audioslave.jpg
+  note: ''
+- title: Rage Against The Machine - XX (20th Anniversary Special Edition)
+  artist: Rage Against The Machine
+  year: '1992'
+  image: /images/albums/rage-against-the-machine-xx-20th-anniversary-special-edition.jpg
+  note: ''
+- title: Bury The Hatchet
+  artist: The Cranberries
+  year: '1999'
+  image: /images/albums/bury-the-hatchet-the-cranberries.jpg
+  note: ''
+- title: Songs For The Deaf
+  artist: Queens of the Stone Age
+  year: '2002'
+  image: /images/albums/songs-for-the-deaf-queens-of-the-stone-age.jpg
+  note: ''
+- title: As Daylight Dies (Special Edition)
+  artist: Killswitch Engage
+  year: '2007'
+  image: /images/albums/as-daylight-dies-special-edition-killswitch-engage.jpg
+  note: ''
+- title: Let God Sort Em Out
+  artist: Clipse, Pusha T, Malice
+  year: '2025'
+  image: /images/albums/let-god-sort-em-out-clipse.jpg
+  note: ''
+- title: AAA
+  artist: HYUKOH, 落日飛車 Sunset Rollercoaster
+  year: '2024'
+  image: /images/albums/aaa-hyukoh.jpg
+  note: ''
+- title: RUAB (DIRECTOR's CUT)
+  artist: Dhanji
+  year: '2024'
+  image: /images/albums/ruab-director-s-cut-dhanji.jpg
+  note: ''
+- title: Brat and it’s completely different but also still brat
+  artist: Charli xcx
+  year: '2024'
+  image: /images/albums/brat-and-it-s-completely-different-but-also-still-brat-charl.jpg
+  note: ''
+- title: Love Deluxe
+  artist: Sade
+  year: '1992'
+  image: /images/albums/love-deluxe-sade.jpg
+  note: ''
+- title: The Best of Sade
+  artist: Sade
+  year: '1994'
+  image: /images/albums/the-best-of-sade-sade.jpg
+  note: ''
+- title: The Black Parade
+  artist: My Chemical Romance
+  year: '2006'
+  image: /images/albums/the-black-parade-my-chemical-romance.jpg
+  note: ''
+- title: Absolution
+  artist: Muse
+  year: '2003'
+  image: /images/albums/absolution-muse.jpg
+  note: ''
+- title: Rebel
+  artist: EsDeeKid
+  year: '2025'
+  image: /images/albums/rebel-esdeekid.jpg
+  note: ''
+- title: AVIAL
+  artist: Avial
+  year: '2022'
+  image: /images/albums/avial-avial-2.jpg
+  note: ''
+- title: Chef [Original Soundtrack Album]
+  artist: Various Artists
+  year: '2014'
+  image: /images/albums/chef-original-soundtrack-album-various-artists.jpg
+  note: ''
+- title: Namah
+  artist: Thaikkudam Bridge
+  year: '2019'
+  image: /images/albums/namah-thaikkudam-bridge.jpg
+  note: ''

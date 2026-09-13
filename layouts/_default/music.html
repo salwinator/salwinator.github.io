@@ -1,0 +1,155 @@
+{{ define "main" }}
+<style>
+#album-container {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+  margin-top: 1.5em;
+  width: min(1100px, calc(100vw - 60px));
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#album-page-text {
+  width: min(1100px, calc(100vw - 60px));
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#thumbnail-container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.album-thumbnail {
+  width: calc((100% - 8 * 12px) / 9);
+  aspect-ratio: 1;
+  cursor: pointer;
+  outline: none;
+}
+
+.album-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.album-thumbnail:hover img {
+  transform: scale(1.06);
+  box-shadow: 0 4px 16px rgba(35, 35, 51, 0.25);
+}
+
+#desc-container {
+  flex: 0 0 300px;
+  position: sticky;
+  top: 20px;
+  padding: 16px 18px;
+  border-left: 3px solid #FFC85C;
+  background: rgba(35, 35, 51, 0.04);
+  border-radius: 0 6px 6px 0;
+}
+
+#desc-container p {
+  margin: 0;
+  font-style: italic;
+  color: #6b6b78;
+}
+
+#desc-container .album-note-title {
+  font-weight: 600;
+  margin: 0 0 2px 0;
+}
+
+#desc-container .album-note-artist {
+  font-style: italic;
+  color: #6b6b78;
+  margin: 0 0 10px 0;
+  font-size: 0.9em;
+}
+
+#desc-container .album-note-body {
+  margin: 0;
+}
+
+@media (max-width: 1150px) {
+  #album-container,
+  #album-page-text {
+    width: calc(100% - 20px);
+    left: 0;
+    transform: none;
+  }
+}
+
+@media (max-width: 700px) {
+  #album-container {
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 18px;
+  }
+  #desc-container {
+    flex: none;
+  }
+  .album-thumbnail {
+    width: calc((100% - 3 * 12px) / 4);
+  }
+}
+</style>
+
+<content>
+  <div id="album-page-text">
+    <h2>favorite albums</h2>
+    {{ .Content }}
+  </div>
+
+  <script id="album-data" type="application/json">{{ .Site.Data.albums | jsonify | safeJS }}</script>
+
+  <div id="album-container">
+    <div id="thumbnail-container">
+      {{ range $i, $album := .Site.Data.albums }}
+      <div class="album-thumbnail" data-index="{{ $i }}" aria-label="{{ $album.title }} by {{ $album.artist }}">
+        <img src="{{ $album.image }}" alt="{{ $album.title }} — {{ $album.artist }}">
+      </div>
+      {{ end }}
+    </div>
+    <div id="desc-container">
+      <p>Hover over an album cover to read my notes on it</p>
+    </div>
+  </div>
+
+  <script>
+(function () {
+  var container = document.getElementById('album-container');
+  if (!container) return;
+
+  var albums = JSON.parse(document.getElementById('album-data').textContent);
+  var desc = document.getElementById('desc-container');
+  var defaultHTML = desc.innerHTML;
+
+  function showNote(thumb) {
+    var i = parseInt(thumb.getAttribute('data-index'), 10);
+    var a = albums[i];
+    var html = '';
+    if (a.title) html += '<p class="album-note-title">' + a.title + '</p>';
+    if (a.artist) html += '<p class="album-note-artist">' + a.artist + '</p>';
+    if (a.note) html += '<p class="album-note-body">' + a.note + '</p>';
+    desc.innerHTML = html || '<p>No notes yet</p>';
+  }
+
+  function reset() {
+    desc.innerHTML = defaultHTML;
+  }
+
+  container.querySelectorAll('.album-thumbnail').forEach(function (thumb) {
+    thumb.addEventListener('mouseenter', function () { showNote(thumb); });
+  });
+  container.addEventListener('mouseleave', reset);
+})();
+  </script>
+</content>
+{{ end }}
