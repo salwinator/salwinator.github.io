@@ -8,6 +8,6 @@ Hi, I'm Salwyn. I love [music](/my-fav-music/)(I can dance to), alignment scienc
 
 Currently
 - working as SDE 1 (AI) at Mikelegal
-- learning at TARA.
+- learning at [TARA](https://www.taraprogram.org/).
 
 **Writings**
