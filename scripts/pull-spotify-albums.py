@@ -138,9 +138,10 @@ for a in albums:
     if a["image_url"]:
         if not os.path.exists(img_path):
             downloaded = False
+            url = re.sub(r"640$", "300", a["image_url"])
             for attempt in range(3):
                 try:
-                    ir = requests.get(a["image_url"], timeout=30)
+                    ir = requests.get(url, timeout=30)
                     if ir.ok:
                         with open(img_path, "wb") as f:
                             f.write(ir.content)

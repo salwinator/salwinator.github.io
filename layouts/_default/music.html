@@ -113,7 +113,7 @@
     <div id="thumbnail-container">
       {{ range $i, $album := .Site.Data.albums }}
       <div class="album-thumbnail" data-index="{{ $i }}" aria-label="{{ $album.title }} by {{ $album.artist }}">
-        <img src="{{ $album.image }}" alt="{{ $album.title }} — {{ $album.artist }}">
+        <img src="{{ $album.image }}" alt="{{ $album.title }} — {{ $album.artist }}" width="240" height="240" loading="lazy" decoding="async">
       </div>
       {{ end }}
     </div>
